@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@500 & display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+li, a, button{
+
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    width: 20%;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color: red;
+}
+.boton{
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.boton:hover{
+    background-color: red;
+}
+.port{
+    width: 100%;
+    height: auto;
+}
+/*Contactos*/
+
+section{
+    padding: 3.5rem 0;
+    background-color: gray;
+}
+main h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 0.5rem 0;
+}
+.field label{
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: black;
+}
+.field input{
+    font-size: 1.1rem;
+    width: 70%;
+    height: 2.2rem;
+    padding-left: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 0.75rem 0;
+}
+.textbox label{
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: black;
+}
+textarea{
+    font-size: 1.1rem;
+    max-width: 100%;
+    height: 5rem;
+    max-height: 15rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.priv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit button{
+    font-size: 1.3rem;
+    padding: 0.75rem 1.2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+/*----Pie de pagina----*/
+footer{
+    background-color: #303030;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    background-color: #303030;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    background-color: #303030;
+    max-width: 500px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    background-color: #303030;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    background-color: #303030;
+    margin: 0 10px;
+}
+.socials a{
+    background-color: #303030;
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    background-color: #303030;
+    font-size: 1.1rem;
+}
+.socials a:hover{
+    color: red;
+}
+.footer-bottom{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    text-transform: capitalize;
+}
